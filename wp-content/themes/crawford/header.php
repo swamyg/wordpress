@@ -17,7 +17,10 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<div class="row">			
+		<div class="row">
+			<nav class="col-md-12" role="navigation">				
+				<div class="collapse navbar-collapse"><?php wp_nav_menu(array('theme_location' => 'primary','depth' => 2,'container' => false,'fallback_cb' => false)); ?></div>
+			</nav>			
 			<div id="logo-tagline" class="col-md-12">				
 				<?php if (get_theme_mod('crawford_logo_setting')): ?>
 			        <a id="logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_theme_mod('crawford_logo_setting')); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>"></a>
@@ -28,9 +31,6 @@
 					<p id="tagline"><?php bloginfo('description'); ?></p>
 				<?php endif; ?>	
 			</div>		
-			<nav class="col-md-12" role="navigation">				
-				<div class="collapse navbar-collapse"><?php wp_nav_menu(array('theme_location' => 'primary','depth' => 2,'container' => false,'fallback_cb' => false)); ?></div>
-			</nav>
 		</div>
 	</div>
 </header>
