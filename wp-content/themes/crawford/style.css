@@ -58,7 +58,8 @@ footer {margin-top:60px;}
 .widget_tag_cloud a {font-size:12px!important; background-color:#eee; padding:4px 6px; margin:0 6px 6px 0; display:inline-block;}
 
 /* ----- posts ----- */
-#post-title, .post-title {text-align:center; font-size:32px; margin:0 0 30px 0;}
+#post-title, .post-title {text-align:center; font-size:32px; margin:0;}
+.author_name {font-style: normal; margin-left: 10px;}
 .post-date {text-align:center; color:#353535; font-size:16px; font-style:italic;}
 .post-title a {color:#222;}
 .divider {width:100%; text-align:center; color:#ddd; font-size:30px; margin-top:42px;}
