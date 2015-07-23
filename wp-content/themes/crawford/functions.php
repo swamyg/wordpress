@@ -238,5 +238,6 @@ function crawford_customize_css() {
     <?php
 }
 add_action('wp_head', 'crawford_customize_css');
-
+// Custom actions
+add_filter('show_admin_bar', '__return_false');
 ?>
