@@ -215,7 +215,7 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 #banner #site-name {text-transform:uppercase; font-size:48px; color:#353535; font-family:'Oswald',sans-serif; margin:40px 0 0 0;}
 #banner #tagline {margin:20px 0 0 0;}
 
-span.emphasis {font-weight: bold; color: #DB7329;}
+.emphasis {font-weight: bold; color: #DB7329;}
 /*
 #post-title {color: #DB7329;}
 .post-title a {color: #DB7329;}*/
