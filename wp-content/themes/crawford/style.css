@@ -149,7 +149,7 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	width: 14em;
+	width: 15em;
 }
 #banner {background-color: #000;}
 #banner #logo-tagline a#site-name{color: #EAEAEA;}
@@ -206,16 +206,22 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 		padding-top: 100px;
 	}
 	#banner a#site-name {font-size: 31px;}
+	#banner span.life {font-size: 48px !important;}
 	header nav ul {margin-top: 5px;}
 	header nav li {padding: 1px 16px;}
 	header nav li a {font-size: 11px;}
 	.container {margin-top: 20px;}
+	.no-right-mobile{float: none !important;}
+	#logo-tagline {width: 11em;}
 }
 #banner #logo-tagline {padding-bottom:30px;}
 #banner #site-name {text-transform:uppercase; font-size:48px; color:#353535; font-family:'Oswald',sans-serif; margin:40px 0 0 0;}
+#banner span.life {font-size: 84px;}
 #banner #tagline {margin:20px 0 0 0;}
 
 .emphasis {font-weight: bold; color: #DB7329;}
+.life {color: #DB7329; font-family: 'Lobster', cursive; line-height: 74px;}
+span.thei {text-transform: none; color: #FF0;}
 /*
 #post-title {color: #DB7329;}
 .post-title a {color: #DB7329;}*/
