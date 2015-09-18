@@ -206,7 +206,7 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 		padding-top: 100px;
 	}
 	#banner a#site-name {font-size: 31px;}
-	#banner span.life {font-size: 48px !important;}
+	#banner span.life {font-size: 64px !important; line-height: 64px;}
 	header nav ul {margin-top: 5px;}
 	header nav li {padding: 1px 16px;}
 	header nav li a {font-size: 11px;}
@@ -216,12 +216,68 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 }
 #banner #logo-tagline {padding-bottom:30px;}
 #banner #site-name {text-transform:uppercase; font-size:48px; color:#353535; font-family:'Oswald',sans-serif; margin:40px 0 0 0;}
-#banner span.life {font-size: 84px;}
+#banner span.life {font-size: 104px;}
 #banner #tagline {margin:20px 0 0 0;}
 
 .emphasis {font-weight: bold; color: #DB7329;}
-.life {color: #DB7329; font-family: 'Lobster', cursive; line-height: 74px;}
-span.thei {text-transform: none; color: #FF0;}
+
+@font-face {
+    font-family: "yorkWhite";
+    src: url(assets/fonts/yorkwhiteletter.ttf);
+}
+
+.life {color: #D8C72D; font-family: "yorkWhite"; line-height: 84px; text-transform: none;}
 /*
 #post-title {color: #DB7329;}
 .post-title a {color: #DB7329;}*/
+/*social icons*/
+ul.social-icons li {display: inline-block;}
+ul.social-icons li a {display: inline-block; text-indent: -9999px; overflow: hidden;}
+.icon-facebook {background: url(assets/images/social_media/facebook.png) no-repeat bottom center scroll; width: 15px; height: 15px;}
+.icon-google-plus {background: url(assets/images/social_media/google.png) no-repeat bottom center scroll;}
+.icon-twitter {background: url(assets/images/social_media/twitter.png) no-repeat bottom center scroll;}
+
+/* Social Icons
+------------------------------------------------------------ */
+ 
+a.social-icon {
+	display: inline-block;
+	height: 23px;
+	width: 23px;
+	text-indent: -9999px;
+	background: url(assets/images/social-icons.png);
+	margin: 0 3px;
+	line-height: 30px;
+}
+ 
+a.social-icon.icon-twitter{
+	background-position: 0 0;
+}
+ 
+a.social-icon.icon-twitter:hover{
+	background-position: 0 -23px;
+}
+ 
+a.social-icon.icon-facebook{
+	background-position: -23px 0;
+}
+ 
+a.social-icon.icon-facebook:hover{
+	background-position: -23px -23px;
+}
+ 
+a.social-icon.icon-rss{
+	background-position: -46px 0;
+}
+ 
+a.social-icon.icon-rss:hover{
+	background-position: -46px -23px;
+}
+ 
+a.social-icon.icon-google-plus{
+	background-position: -69px 0;
+}
+ 
+a.social-icon.icon-google-plus:hover{
+	background-position: -69px -69px;
+}

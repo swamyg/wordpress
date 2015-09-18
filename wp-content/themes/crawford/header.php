@@ -6,7 +6,8 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>              
     <link rel="profile" href="http://gmpg.org/xfn/11" />        
 		<link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://https.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
     <?php wp_head(); ?>
 </head>
@@ -17,7 +18,7 @@
 				<?php if (get_theme_mod('crawford_logo_setting')): ?>
 			        <a id="logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_theme_mod('crawford_logo_setting')); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>"></a>
 			    <?php else: ?>
-			        <a id="site-name" href="<?php echo esc_url(home_url('/')); ?>">A Coach Called <span class='life'>L<span class='thei'>i</span>fe</span></a>
+			        <a id="site-name" href="<?php echo esc_url(home_url('/')); ?>">A Coach Called <span class='life'>LiFE</span></a>
 			    <?php endif; ?>			   
 			    <?php if ('yes' === get_theme_mod('crawford_tagline_setting')): ?>
 					<p id="tagline"><?php bloginfo('description'); ?></p>
