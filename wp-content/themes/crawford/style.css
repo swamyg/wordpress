@@ -147,8 +147,8 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 
 #logo-tagline {
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: 10px;
+	left: 0px;
 	width: 15em;
 }
 #banner {background-color: #000;}
