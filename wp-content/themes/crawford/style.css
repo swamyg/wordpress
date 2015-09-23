@@ -66,7 +66,7 @@ article.last .divider {display:none;}
 article h1, article h2, article h3, article h4, article h5, article h6 {font-weight:bold; margin:0 0 25px 0; line-height:1.5em;} 
 article h1 {font-size:32px;}
 article h2 {font-size:29px;}
-article h3 {font-size:26px;}
+article h3 {font-size:26px; margin-bottom: -20px;}
 article h4 {font-size:24px;}
 article h5 {font-size:21px;}
 article h6 {font-size:18px;}
