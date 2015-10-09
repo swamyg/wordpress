@@ -11,7 +11,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php page_bodyclass(); ?>>
 	<div id="top-background">
 		<div id="banner">
 			<div id="logo-tagline" class="col-md-12">				

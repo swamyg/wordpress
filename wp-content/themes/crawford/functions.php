@@ -240,4 +240,17 @@ function crawford_customize_css() {
 add_action('wp_head', 'crawford_customize_css');
 // Custom actions
 add_filter('show_admin_bar', '__return_false');
+
+//User definied functions
+function page_bodyclass() {  // add class to <body> tag
+	global $wp_query;
+	$page = '';
+	if (is_front_page() ) {
+    	   $page = 'home';
+	} elseif (is_page()) {
+   	   $page = $wp_query->query_vars["pagename"];
+	}
+	if ($page)
+		echo 'class="'. $page. '"';
+}
 ?>
