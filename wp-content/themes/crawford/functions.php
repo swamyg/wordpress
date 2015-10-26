@@ -253,4 +253,8 @@ function page_bodyclass() {  // add class to <body> tag
 	if ($page)
 		echo 'class="'. $page. '"';
 }
+
+function work_with_me_link() {
+	echo '<a href="/workwithme">Swamy G.</a>';
+}
 ?>

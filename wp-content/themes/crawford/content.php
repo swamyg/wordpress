@@ -6,7 +6,7 @@
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
 			<?php the_title('<h1 id="post-title">', '</h1>'); ?>						
 			<p class="post-date"><?php the_date(); ?> 
-				<span class='author_name'>by <?php the_author(); ?> <?php if (is_sticky()) : ?> - Featured<?php endif; ?></span>
+				<span class='author_name'>by <?php work_with_me_link(); ?> <?php if (is_sticky()) : ?> - Featured<?php endif; ?></span>
 			</p>
 			<?php the_content(); ?>	
 			<?php $post_tags = get_the_tags(); ?>
