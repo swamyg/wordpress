@@ -230,6 +230,7 @@ nav.col-md-12 .navbar-collapse {overflow: hidden;}
 /*
 #post-title {color: #DB7329;}
 .post-title a {color: #DB7329;}*/
+.disclaimer {font-size: 11px; color: #777;}
 /*social icons*/
 ul.social-icons li {display: inline-block;}
 ul.social-icons li a {display: inline-block; text-indent: -9999px; overflow: hidden;}
