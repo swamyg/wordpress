@@ -24,7 +24,7 @@ add_action('after_setup_theme', 'crawford_setup');
 // load css 
 function crawford_css() {	
 	wp_enqueue_style('crawford_oswald', '//fonts.googleapis.com/css?family=Oswald:400');	
-	wp_enqueue_style('crawford_domine', '//fonts.googleapis.com/css?family=Domine:400,700');
+	wp_enqueue_style('crawford_raleway', '//fonts.googleapis.com/css?family=Droid+Serif:400,700');
 	wp_enqueue_style('crawford_bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css');	   
 	wp_enqueue_style('crawford_style', get_stylesheet_uri());
 }

@@ -8,6 +8,25 @@
 		<link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
 		<link href='https://https.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arvo:400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
     <?php wp_head(); ?>
 </head>
@@ -41,3 +60,42 @@
 			</div>
 		</div>
 	</header>
+	<!-- Begin MailChimp Signup Form -->
+	<!-- -->
+	<div id="optinforms-form5-container" style="width: 70%; float: none; margin: auto; margin-top: -50px">
+	    <form method="post"
+	          action="//acoachcalledlife.us12.list-manage.com/subscribe/post?u=8a646080df7192fc8656d9b04&amp;id=187fe6406b">
+	        <div id="optinforms-form5" style="background:#3E3E3E;">
+	            <div id="optinforms-form5-container-left">
+	                <div id="optinforms-form5-title"
+	                     style="font-family:News Cycle; font-size:24px; line-height:24px; color:#fff">Is Anxiety Holding You Hostage?
+	                </div>
+	                <!--optinforms-form5-title--><input type="text" id="optinforms-form5-name-field" name="FNAME"
+	                                                    placeholder="Enter Your Name"
+	                                                    style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000"><input
+	                    type="text" id="optinforms-form5-email-field" name="EMAIL" placeholder="Enter Your Email"
+	                    style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000"><input type="submit"
+	                                                                                                           name="submit"
+	                                                                                                           id="optinforms-form5-button"
+	                                                                                                           value="SUBSCRIBE FOR FREE"
+	                                                                                                           style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#fb6a13">
+	            </div>
+	            <!--optinforms-form5-container-left-->
+	            <div id="optinforms-form5-container-right">
+	                <div id="optinforms-form5-subtitle" style="font-family: 'Lora', serif; font-size:16px; color:#fff">Get
+	                    articles on managing anxiety, dating and relationship stratergies and improving your overall
+	                    physical and mental well-being delivered direct to your inbox every week.
+	                </div>
+	                <!--optinforms-form5-subtitle-->
+	                <div id="optinforms-form5-disclaimer"
+	                     style="font-family: 'Lora', serif; font-size:14px; color:#aaa">We hate
+	                    spam. Your email address will not be sold or shared with anyone else.
+	                </div>
+	                <!--optinforms-form5-disclaimer--></div>
+	            <!--optinforms-form5-container-right-->
+	            <div class="clear"></div>
+	        </div>
+				</form>
+	</div>
+	<!-- -->
+	<!--End mc_embed_signup-->
