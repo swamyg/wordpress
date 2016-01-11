@@ -182,7 +182,6 @@
 			var $parent;
 
 			//If the position is set
-			debugger
 			if(position !== null) {
 				$parent = this.$elem.find('a[href$="#' + position + '"]').parent();
 
