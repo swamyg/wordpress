@@ -4125,9 +4125,5 @@ div.subscribe-msg { color: #ffffff; font-size: 15px;}
 }
 
 @media (max-width: 768px) {
-    .img-pull-left { margin-left: -10em; }
-}
-
-@media (max-width: 480px) {
-    .img-pull-left { margin-left: -8em; }
+    .img-pull-left { margin-left: -2em; }
 }
