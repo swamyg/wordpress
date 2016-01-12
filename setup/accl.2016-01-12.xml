@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.1" created="2016-01-12 00:32" -->
+<!-- generator="WordPress/4.4.1" created="2016-01-12 01:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>A Coach Called Life</title>
 	<link>http://wordpress.dev</link>
 	<description></description>
-	<pubDate>Tue, 12 Jan 2016 00:32:21 +0000</pubDate>
+	<pubDate>Tue, 12 Jan 2016 01:32:07 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://wordpress.dev</wp:base_site_url>
@@ -893,7 +893,7 @@ As a new WordPress user, you should go to <a href="http://wordpress.dev/wp-admin
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[sample-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -902,6 +902,14 @@ As a new WordPress user, you should go to <a href="http://wordpress.dev/wp-admin
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1452562311]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -965,7 +973,7 @@ As a new WordPress user, you should go to <a href="http://oldpress.dev/wp-admin/
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[sample-page-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -974,6 +982,14 @@ As a new WordPress user, you should go to <a href="http://oldpress.dev/wp-admin/
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1452562312]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1331,8 +1347,8 @@ Sometimes, even after developing a lot of resource for your growth, you will sti
 	</item>
 	<item>
 		<title>MailChimp for WordPress: Form Preview</title>
-		<link>http://wordpress.dev/?page_id=157</link>
-		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<link>http://wordpress.dev/mc4wp-form-preview/</link>
+		<pubDate>Fri, 11 Dec 2015 18:26:51 +0000</pubDate>
 		<dc:creator><![CDATA[swamy_g]]></dc:creator>
 		<guid isPermaLink="false">http://wordpress.dev/?page_id=157</guid>
 		<description></description>
@@ -1340,20 +1356,28 @@ Sometimes, even after developing a lot of resource for your growth, you will sti
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>157</wp:post_id>
 		<wp:post_date><![CDATA[2015-12-11 18:26:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_date_gmt><![CDATA[2015-12-11 18:26:51]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[mc4wp-form-preview]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1452562308]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Hi there</title>
-		<link>http://wordpress.dev/</link>
+		<link>http://wordpress.dev/hi/</link>
 		<pubDate>Thu, 31 Dec 2015 23:55:41 +0000</pubDate>
 		<dc:creator><![CDATA[swamy_g]]></dc:creator>
 		<guid isPermaLink="false">http://oldpress.dev/?page_id=176</guid>
@@ -1368,7 +1392,7 @@ My core belief is that Life is a great coach. It teaches us through our own expe
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[hi]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -1394,6 +1418,14 @@ My core belief is that Life is a great coach. It teaches us through our own expe
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[180]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1452562306]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Welcome</title>
@@ -1414,7 +1446,7 @@ Quisque accumsan lacus id lacus egestas, eget commodo augue rutrum. Pellentesque
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[welcome]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -1439,6 +1471,14 @@ Quisque accumsan lacus id lacus egestas, eget commodo augue rutrum. Pellentesque
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[pm_meta_templ_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1452562314]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
