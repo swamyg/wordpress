@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.1" created="2016-01-12 00:03" -->
+<!-- generator="WordPress/4.4.1" created="2016-01-12 00:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>A Coach Called Life</title>
 	<link>http://wordpress.dev</link>
 	<description></description>
-	<pubDate>Tue, 12 Jan 2016 00:03:58 +0000</pubDate>
+	<pubDate>Tue, 12 Jan 2016 00:32:21 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://wordpress.dev</wp:base_site_url>
@@ -1026,12 +1026,12 @@ As a new WordPress user, you should go to <a href="http://oldpress.dev/wp-admin/
 		<guid isPermaLink="false">http://localhost/~Swamy/wordpress/?page_id=13</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="about-content-wrapper tg-column-wrapper clearfix">
-<div class="about-image tg-column-2"><img class="alignnone size-full wp-image-237" src="http://wordpress.dev/wp-content/uploads/2016/01/your_freedom.jpg" alt="Freedom from anxiety" width="960" height="854" /></div>
+<div class="about-image tg-column-2"><img class="alignnone size-full wp-image-237" src="/wp-content/uploads/2016/01/your_freedom.jpg" alt="Freedom from anxiety" width="960" height="854" /></div>
 <div class="about-content tg-column-2">
 <h2 class="about-title">You</h2>
 <div class="about-content">
 
-You are tired of fighting your anxiety and panic. You have a life waiting to be lived but your anxiety is in between the life you have right now and the life you want to live. Despite your worries, you know that deep inside you are courageous. You are determined to find the inner strength you possess and make peace with your anxiety.
+You are tired of fighting your anxiety and panic. You have a life waiting to be lived, but your anxiety is in between the life you have right now and the life you want to live. Despite your worries, you know that deep inside you are courageous. You are determined to find the inner strength you possess and make peace with your anxiety.
 
 </div>
 </div>
@@ -1041,11 +1041,11 @@ You are tired of fighting your anxiety and panic. You have a life waiting to be 
 <h2 class="about-title">Me</h2>
 <div class="about-content">
 
-I consider it my calling to help others discover their internal strength during times of adversity. My last 10 years have been transformational during which I faced periods of intense anxiety, depression, panic, a disconnect from ordinary reality and depersonalization. With help and guidance from wise people and through the wisdom of Life itself, I developed my inner resources and learned how to face these feelings and come to peace with them. With all of that knowledge and experience, I want to help you to free yourself from unnecessary suffering and move towards becoming whole.
+I consider it my calling to help others discover their internal strength during times of adversity. I have spent the last 10 years undergoing a transformation, during which I faced periods of intense anxiety, depression, panic, a disconnect from ordinary reality and depersonalization. With help and guidance from wise people and through the wisdom of Life itself, I developed my inner resources and learned how to face these feelings and come to peace with them. With all of that knowledge and experience, I want to help you to free yourself from unnecessary suffering and move towards becoming whole.
 
 </div>
 </div>
-<div class="about-image tg-column-2"><img class="alignnone wp-image-302 size-full" src="http://wordpress.dev/wp-content/uploads/2016/01/swamy_get_help_page.jpg" alt="" width="373" height="560" /></div>
+<div class="about-image tg-column-2"><img class="alignnone wp-image-302 size-full" src="/wp-content/uploads/2016/01/swamy_get_help_page.jpg" alt="" width="373" height="560" /></div>
 </div>
 <div class="about-content-wrapper tg-column-wrapper clearfix">
 <div class="about-content tg-column-1">
@@ -1053,7 +1053,7 @@ I consider it my calling to help others discover their internal strength during 
 <h2 class="about-title" style="text-align: center;">Our Work Together</h2>
 <div class="about-content">
 
-Often, feelings like anxiety are likely the result of unexpressed parts of ourselves desiring to be heard or in conflict with one another. Anxiety is usually the symptom of issues that are beneath our awareness. We will employ creative methods to go deep inside of you and figure out what parts of yourself are wanting to be expressed and what is holding them back. Our sessions are going to be unique to you. You will not just talk about your past but also learn what to do when anxiety shows up in the present and work on setting goals for your future. With a focus on wholeness, we will be using your own deep intuition, your feelings and your body sensations as a guide to shed light on aspects of yourself that are longing for your attention or blocking your recovery. Once we get a basic understanding of your life’s problems and challenges we will move ahead and work on the following areas:
+Often, feelings like anxiety are likely the result of unexpressed parts of us desiring to be heard or in conflict with one another. Anxiety is usually the symptom of issues that are beneath our awareness. We will employ creative methods to delve deep inside of you and figure out what parts of yourself are wanting to be expressed and what is holding them back. Our sessions are going to be unique to you. You will not just talk about your past, but also learn what to do when anxiety shows up in the present and work on setting goals for your future. With a focus on wholeness, we will be using your deep intuition, your feelings and your body sensations as a guide to shed light on aspects of yourself that are longing for your attention or blocking your recovery. Once we get a basic understanding of your life’s problems and challenges, we will then move ahead and work on the following areas:
 
 </div>
 </div>
@@ -1062,39 +1062,39 @@ Often, feelings like anxiety are likely the result of unexpressed parts of ourse
 <div class="tg-column-wrapper clearfix">
 <div class="tg-column-3 tg-column-bottom-margin">
 <div class="service_image_class">
-<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="http://wordpress.dev/wp-content/uploads/2016/01/results_freedom-1.jpg" alt="Freedom from fear" width="470" height="280" /></div>
+<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="/wp-content/uploads/2016/01/results_freedom-1.jpg" alt="Freedom from fear" width="470" height="280" /></div>
 </div>
 <div class="service-desc-wrap">
 <h5 class="service-title">Freedom From Fear</h5>
 <div class="service-content">
 
-Free yourself from the grips of fear, anxiety, panic.
+Free yourself from the grips of fear, anxiety, and panic.
 
 </div>
 </div>
 </div>
 <div class="tg-column-3 tg-column-bottom-margin">
 <div class="service_image_class">
-<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="http://wordpress.dev/wp-content/uploads/2016/01/results_understand_brain-1.jpg" alt="Understand your anxiety" width="470" height="280" /></div>
+<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="/wp-content/uploads/2016/01/results_understand_brain-1.jpg" alt="Understand your anxiety" width="470" height="280" /></div>
 </div>
 <div class="service-desc-wrap">
 <h5 class="service-title">Understand Your Anxiety</h5>
 <div class="service-content">
 
-Understand the basic concepts like sympathetic and para sympathetic nervous system and how they play a role in your anxiety. We will also cover the psychological and spiritual side of your experience.
+Understand the basic concepts like sympathetic and para sympathetic nervous system and how they play a role in your anxiety. We will also cover both the psychological and spiritual sides of your experience.
 
 </div>
 </div>
 </div>
 <div class="tg-column-3 tg-column-bottom-margin">
 <div class="service_image_class">
-<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="http://wordpress.dev/wp-content/uploads/2016/01/results_dpdr-1.jpg" alt="Recover from Depersonalization and De-Realization" width="470" height="280" /></div>
+<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="/wp-content/uploads/2016/01/results_dpdr-1.jpg" alt="Recover from Depersonalization and De-Realization" width="470" height="280" /></div>
 </div>
 <div class="service-desc-wrap">
 <h5 class="service-title">Recover From Depersonalization and Derealization</h5>
 <div class="service-content">
 
-You’ll learn why sometimes you feel disconnected from yourself and your surroundings why it's not dangerous or scary as you think.
+You’ll learn why sometimes you feel disconnected from yourself and your surroundings, as well as why it’s not as dangerous or scary as you think.
 
 </div>
 </div>
@@ -1102,39 +1102,39 @@ You’ll learn why sometimes you feel disconnected from yourself and your surrou
 <div class="clearfix"></div>
 <div class="tg-column-3 tg-column-bottom-margin">
 <div class="service_image_class">
-<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="http://wordpress.dev/wp-content/uploads/2016/01/results_relating-1.jpg" alt="Relating to others" width="470" height="280" /></div>
+<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="/wp-content/uploads/2016/01/results_relating-1.jpg" alt="Relating to others" width="470" height="280" /></div>
 </div>
 <div class="service-desc-wrap">
 <h5 class="service-title">Relate to Others</h5>
 <div class="service-content">
 
-Being able to connect back with  friends and family and other people will be one of the cornerstones of our work together.
+Being able to connect back with friends, family and other people will be one of the cornerstones of our work together.
 
 </div>
 </div>
 </div>
 <div class="tg-column-3 tg-column-bottom-margin">
 <div class="service_image_class">
-<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="http://wordpress.dev/wp-content/uploads/2016/01/results_confidence-1.jpg" alt="Bring back your confidence" width="470" height="280" /></div>
+<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="/wp-content/uploads/2016/01/results_confidence-1.jpg" alt="Bring back your confidence" width="470" height="280" /></div>
 </div>
 <div class="service-desc-wrap">
 <h5 class="service-title">Get Your Confidence Back</h5>
 <div class="service-content">
 
-Feel in control and boldly go outside or perform tasks that you weren't confident of doing before.
+Feel in control and boldly go outside or perform tasks that you weren’t confident of doing before.
 
 </div>
 </div>
 </div>
 <div class="tg-column-3 tg-column-bottom-margin">
 <div class="service_image_class">
-<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="http://wordpress.dev/wp-content/uploads/2016/01/results_lifestyle-1.jpg" alt="Design your Lifestye" width="470" height="280" /></div>
+<div class="image-wrap"><img class="attachment-himalayas-services size-himalayas-services wp-post-image" src="/wp-content/uploads/2016/01/results_lifestyle-1.jpg" alt="Design your Lifestye" width="470" height="280" /></div>
 </div>
 <div class="service-desc-wrap">
 <h5 class="service-title">Design The Life You Want</h5>
 <div class="service-content">
 
-If anxiety wasn't in the picture, what would your life be like?
+If anxiety wasn’t in the picture, what would your life be like?
 
 </div>
 </div>
@@ -1147,7 +1147,7 @@ If anxiety wasn't in the picture, what would your life be like?
 <h1 class="entry-title">Let me help you</h1>
 <div class="about-content">
 
-Having had formal training from the <a href="http://interchangecounseling.com">Interchange Counseling Institute</a> in San Francisco and combined with the experience of helping people to transform their lives, I am currently available to work with you <span class="emphasis">in person in <strong>San Francisco Bay Area</strong></span> or <strong><span class="emphasis">worldwide through Skype/phone</span></strong>. Our <strong>first appointment is free of charge</strong>. Fill up this short form below to get in touch with me.
+Having had formal training from the <a href="http://interchangecounseling.com">Interchange Counseling Institute</a> in San Francisco, combined with the experience of helping people to transform their lives, I am currently available to work with you in person in<span class="emphasis"> <strong>San Francisco Bay Area</strong></span> or <strong><span class="emphasis">worldwide through Skype/phone</span></strong>. Our <strong>first appointment is free of charge</strong>. Fill in the short form below to get in touch with me.
 
 </div>
 </div>
