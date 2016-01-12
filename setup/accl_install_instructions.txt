@@ -11,9 +11,13 @@ sudo chmod -R g+w wordpress
 Change site identity/title
 Import xml
 
-* Change default layout
+* Change default layout for front page, pages and posts(last 2 the same)
 * upload logo blog/logo_cut_white.png
 * Change primary color #11c407
+
+*enable slider
+*change featured image in is anxiety holding you?
+*hide blog posts from front page (additional options)
 
 WIDGETS
 * Add mobile feature box
@@ -26,6 +30,7 @@ WIDGETS
 
 * Add contact me widget
 * Enable contact me plugin
+* Change contact me page text
 * Disable confirming email addr in contact form
 
 
