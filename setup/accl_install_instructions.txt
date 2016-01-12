@@ -29,9 +29,6 @@ WIDGETS
 * Disable confirming email addr in contact form
 
 
-REMOVE DEBUGGER
-
-Get help page
 Upload you and me pics
 Upload results pics 6 of them
 Link accordingly on get help page
