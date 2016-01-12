@@ -1,0 +1,37 @@
+Install Git
+Set up ssh-keys https://help.github.com/articles/set-up-git/
+Git clone
+
+Change Permissions:
+For mac
+sudo chown -R _www wordpress
+sudo chmod -R g+w wordpress
+
+
+Change site identity/title
+Import xml
+
+* Change default layout
+* upload logo blog/logo_cut_white.png
+* Change primary color #11c407
+
+WIDGETS
+* Add mobile feature box
+* Add welcome feature (change welcome img -> blog/swamy_welcome_img)
+
+* Add feel like talking (change bg color)
+* Add featured posts
+* Upload mountain bg image
+* move bg color omg
+
+* Add contact me widget
+* Enable contact me plugin
+* Disable confirming email addr in contact form
+
+
+REMOVE DEBUGGER
+
+Get help page
+Upload you and me pics
+Upload results pics 6 of them
+Link accordingly on get help page
