@@ -33,6 +33,8 @@ WIDGETS
 * Change contact me page text
 * Disable confirming email addr in contact form
 
+* Fix articles page (Settings -> Reading -> articles page)
+
 
 Upload you and me pics
 Upload results pics 6 of them
