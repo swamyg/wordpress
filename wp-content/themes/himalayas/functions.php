@@ -71,6 +71,14 @@ function himalayas_setup() {
 }
 endif;
 
+/** USER DEFINED FUNCTIONS **/
+function my_wp_default_styles($styles)
+{
+	//use release date and subversion for version
+	$styles->default_version = "201602131";
+}
+add_action("wp_default_styles", "my_wp_default_styles");
+
 /**
  * Define Directory Location Constants
  */
