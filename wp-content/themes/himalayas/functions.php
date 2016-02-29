@@ -75,7 +75,7 @@ endif;
 function my_wp_default_styles($styles)
 {
 	//use release date and subversion for version
-	$styles->default_version = "201602131";
+	$styles->default_version = "201603011";
 }
 add_action("wp_default_styles", "my_wp_default_styles");
 
