@@ -178,7 +178,7 @@ blockquote {
     margin: 0 15px;
     font-size: 20px;
     font-style: italic;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 300;
 }
 
@@ -266,6 +266,9 @@ h6 {
     font-size: 16px;
 }
 
+.entry-content {
+   font-family: 'Lora', sans-serif; 
+}
 
 /*--------------------------------------------------------------
 Elements
