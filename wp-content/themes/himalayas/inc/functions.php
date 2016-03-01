@@ -179,10 +179,10 @@ function himalayas_entry_meta() {
       ); ?>
 
       <span class="byline author vcard"><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php echo get_the_author(); ?>"><?php echo esc_html( get_the_author() ); ?></a></span>
-
+      <span class="read-time no-dot"><?php post_read_time(); ?></span>
       <?php
       if ( ! post_password_required() && comments_open() ) { ?>
-         <span class="comments-link"><?php comments_popup_link( __( '0 Comment', 'himalayas' ), __( '1 Comment', 'himalayas' ), __( ' % Comments', 'himalayas' ) ); ?></span>
+         <span class="comments-link no-dot"><?php comments_popup_link( __( '0 Comment', 'himalayas' ), __( '1 Comment', 'himalayas' ), __( ' % Comments', 'himalayas' ) ); ?></span>
       <?php }
 
       edit_post_link( __( 'Edit', 'himalayas' ), '<span class="edit-link">', '</span>' );

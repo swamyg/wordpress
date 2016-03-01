@@ -615,14 +615,17 @@ h1.entry-title a {
     display: none;
 }
 
-.single .byline,
+.byline,
 .group-blog .byline,
 .posted-on,
+.edit-link,
 .blog-author,
+.comments-link,
+.read-time,
 .blog-cat {
     display: inline;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -3136,23 +3139,21 @@ Video background css
 
 .entry-meta {
     margin: 15px 0 30px 0;
-    /*border: 1px solid #e1e1e1;*/
     border-left: none;
     border-right: none;
     line-height: 30px;
-    /*text-align: center;*/
+    width: 97%;
 }
 
-.entry-meta a {
+.entry-meta a, .read-time {
     color: #585858;
-    font-size: 15px;
 }
 
 .entry-meta a:hover {
     color: #28a8b3;
 }
 
-.entry-meta > span:after {
+.entry-meta > span:not(.no-dot):after {
     color: #585858;
     content: "·";
     left: 10px;
@@ -3171,6 +3172,10 @@ Video background css
 
 .posted-on {
     font-style: normal;
+}
+
+.comments-link {
+    float: right;
 }
 
 .entry-thumbnail .blog-hover-effect {
