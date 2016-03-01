@@ -673,7 +673,7 @@ article.hentry .entry-footer > span {
     padding-bottom: 15px;
 }
 
-.posted-on:before {
+/*.posted-on:before {
     content: "\f073";
     font-family: FontAwesome;
     font-style: normal;
@@ -711,7 +711,7 @@ article.hentry .entry-footer > span {
     font-style: normal;
     margin-right: 3px;
     color: #aeaeae;
-}
+}*/
 
 .entry-footer a {
     color: #999;
@@ -3135,16 +3135,17 @@ Video background css
 }
 
 .entry-meta {
-    margin: 30px 0;
-    border: 1px solid #e1e1e1;
+    margin: 15px 0 30px 0;
+    /*border: 1px solid #e1e1e1;*/
     border-left: none;
     border-right: none;
     line-height: 30px;
+    /*text-align: center;*/
 }
 
 .entry-meta a {
-    color: #aeaeae;
-    font-size: 12px;
+    color: #585858;
+    font-size: 15px;
 }
 
 .entry-meta a:hover {
@@ -3152,11 +3153,12 @@ Video background css
 }
 
 .entry-meta > span:after {
-    color: #aeaeae;
-    content: "/";
+    color: #585858;
+    content: "·";
     left: 10px;
     position: relative;
-    top: 0;
+    top: 3px;
+    font-size: 18px;
 }
 
 .entry-meta > span:last-child:after {
@@ -3164,7 +3166,7 @@ Video background css
 }
 
 .entry-meta > span {
-    margin-right: 20px;
+    margin-right: 13px;
 }
 
 .posted-on {
@@ -3267,12 +3269,6 @@ Video background css
 
 .entry-btn .btn:hover {
     background: #32C4D1;
-}
-
-article {
-    border-bottom: 1px solid #e1e1e1;
-    margin-bottom: 70px;
-    padding-bottom: 70px;
 }
 
 .single-post article {

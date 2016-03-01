@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'himalayas_scripts' );
  */
 function himalayas_scripts() {
    // Load Google fonts
-   wp_enqueue_style( 'himalayas-google-fonts', '//fonts.googleapis.com/css?family=Crimson+Text:700|Roboto:400,700,900,300|Roboto+Slab:400,700,300|Lora:400|Merriweather:300italic' );
+   wp_enqueue_style( 'himalayas-google-fonts_2', '//fonts.googleapis.com/css?family=Crimson+Text:700|Roboto:400,700,900,300|Roboto+Slab:400,700,300|Lora:400|Merriweather:300italic', false, '201603011');
 
    // Load fontawesome
    wp_enqueue_style( 'himalayas-fontawesome', get_template_directory_uri() . '/font-awesome/css/font-awesome.min.css', array(), '4.3.0' );
@@ -184,13 +184,6 @@ function himalayas_entry_meta() {
       if ( ! post_password_required() && comments_open() ) { ?>
          <span class="comments-link"><?php comments_popup_link( __( '0 Comment', 'himalayas' ), __( '1 Comment', 'himalayas' ), __( ' % Comments', 'himalayas' ) ); ?></span>
       <?php }
-
-      if( has_category() ) { ?>
-         <span class="cat-links"><?php the_category(', '); ?></span>
-       <?php }
-
-      $tags_list = get_the_tag_list( '<span class="tag-links">', ', ', '</span>' );
-      if ( $tags_list ) echo $tags_list;
 
       edit_post_link( __( 'Edit', 'himalayas' ), '<span class="edit-link">', '</span>' );
 
