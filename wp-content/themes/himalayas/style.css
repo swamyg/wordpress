@@ -3510,9 +3510,9 @@ Video background css
         bottom: 20px;
     }
     .caption-title {
-        font-size: 40px;
+        font-size: 42px;
         line-height: 40px;
-        width: 64%;
+        width: 81%;
         font-weight: 700;
     }
     .caption-sub {
@@ -3612,7 +3612,7 @@ Video background css
     }
     .caption-title {
         font-size: 22px;
-        line-height: 10px;
+        line-height: 28px;
     }
     .caption-title span {
         padding: 20px 25px;
@@ -3716,7 +3716,7 @@ Video background css
     }
     .caption-title {
         font-size: 24px;
-        width: 62%;
+        width: 78%;
     }
     .caption-title span {
         padding: 10px;
