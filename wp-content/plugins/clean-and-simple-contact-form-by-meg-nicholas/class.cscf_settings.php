@@ -27,7 +27,7 @@ class cscf_settings
     {
 
         // This page will be under "Settings"
-        add_options_page(__('Contact Form Settings', 'cleanandsimple'), __('Contact Form', 'cleanandsimple'), 'manage_options', 'contact-form-settings', array(
+        add_options_page(__('Contact Form Settings', 'clean-and-simple-contact-form-by-meg-nicholas'), __('Contact Form', 'clean-and-simple-contact-form-by-meg-nicholas'), 'manage_options', 'contact-form-settings', array(
             $this,
             'create_admin_page'
         ));
@@ -38,18 +38,18 @@ class cscf_settings
     {
         ?>
 
-        <?php screen_icon(); ?><h2><?php _e('Clean and Simple Contact Form Settings', 'cleanandsimple'); ?></h2>
+        <?php screen_icon(); ?><h2><?php _e('Clean and Simple Contact Form Settings', 'clean-and-simple-contact-form-by-meg-nicholas'); ?></h2>
         <hr/>
 
         <div style="float:right;position: relative;width:250px;">
 
             <div style="border:1px solid;padding:5px;margin-bottom: 8px;text-align:center;">
-                <h3><?php _e("Donate $10, $20 or $50!", "cleanandsimple"); ?></h3>
+                <h3><?php _e("Donate $10, $20 or $50!", "clean-and-simple-contact-form-by-meg-nicholas"); ?></h3>
 
                 <div>
-                    <p><?php _e("If you like this plugin, please donate to support development and maintenance of:", "cleanandsimple"); ?></p>
+                    <p><?php _e("If you like this plugin, please donate to support development and maintenance of:", "clean-and-simple-contact-form-by-meg-nicholas"); ?></p>
 
-                    <h3><?php _e("Clean and Simple Contact Form!", "cleanandsimple"); ?></h3>
+                    <h3><?php _e("Clean and Simple Contact Form!", "clean-and-simple-contact-form-by-meg-nicholas"); ?></h3>
 
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_s-xclick">
@@ -62,33 +62,28 @@ class cscf_settings
 
                 </div>
             </div>
-
-            <a title="ManageWP"
-               href="http://managewp.com/?utm_source=clean_simple_form&utm_medium=Banner&utm_content=mwp250_2&utm_campaign=Plugins"><img
-                    alt="ManageWP - Manage all your WordPress blogs from one Dashboard"
-                    src="<?php echo CSCF_PLUGIN_URL; ?>/images/managewp.png" width="250px" height="250px"/></a>
         </div>
         <div style="float:left;">
-            <p><?php _e('You are using version', 'cleanandsimple'); ?> <?php echo CSCF_VERSION_NUM; ?></p>
+            <p><?php _e('You are using version', 'clean-and-simple-contact-form-by-meg-nicholas'); ?> <?php echo CSCF_VERSION_NUM; ?></p>
 
-            <p><?php _e('If you find this plugin useful please consider', 'cleanandsimple'); ?>
+            <p><?php _e('If you find this plugin useful please consider', 'clean-and-simple-contact-form-by-meg-nicholas'); ?>
                 <a target="_blank"
                    href="http://wordpress.org/support/view/plugin-reviews/<?php echo CSCF_PLUGIN_NAME; ?>">
-                    <?php _e('leaving a review', 'cleanandsimple'); ?>
+                    <?php _e('leaving a review', 'clean-and-simple-contact-form-by-meg-nicholas'); ?>
                 </a>
-                . <?php _e('Thank you!', 'cleanandsimple'); ?>
+                . <?php _e('Thank you!', 'clean-and-simple-contact-form-by-meg-nicholas'); ?>
             </p>
 
             <?php if (cscf_PluginSettings::IsJetPackContactFormEnabled()) { ?>
                 <p class="highlight">
-                    <?php _e('NOTICE: You have JetPack\'s Contact Form enabled please deactivate it or use the shortcode [cscf-contact-form] instead.', 'cleanandsimple'); ?>
+                    <?php _e('NOTICE: You have JetPack\'s Contact Form enabled please deactivate it or use the shortcode [cscf-contact-form] instead.', 'clean-and-simple-contact-form-by-meg-nicholas'); ?>
                     &nbsp; <a target="_blank"
-                              href="http://www.megnicholas.co.uk/articles/clean-and-simple-contact-form-and-jetpack/"><?php _e('Read More', 'cleanandsimple'); ?></a>
+                              href="http://www.megnicholas.co.uk/articles/clean-and-simple-contact-form-and-jetpack/"><?php _e('Read More', 'clean-and-simple-contact-form-by-meg-nicholas'); ?></a>
                 </p>
             <?php } ?>
 
-            <p class="howto"><?php _e("Please Note: To add the contact form to your page please add the text", "cleanandsimple"); ?>
-                <code>[cscf-contact-form]</code> <?php _e("to your post or page.", "cleanandsimple"); ?></p>
+            <p class="howto"><?php _e("Please Note: To add the contact form to your page please add the text", "clean-and-simple-contact-form-by-meg-nicholas"); ?>
+                <code>[cscf-contact-form]</code> <?php _e("to your post or page.", "clean-and-simple-contact-form-by-meg-nicholas"); ?></p>
 
             <form method="post" action="options.php">
                 <?php
@@ -108,7 +103,7 @@ class cscf_settings
     public
     function page_init()
     {
-        add_settings_section('section_recaptcha', '<h3>' . __('ReCAPTCHA Settings', 'cleanandsimple') . '</h3>', array(
+        add_settings_section('section_recaptcha', '<h3>' . __('ReCAPTCHA Settings', 'clean-and-simple-contact-form-by-meg-nicholas') . '</h3>', array(
             $this,
             'print_section_info_recaptcha'
         ), 'contact-form-settings');
@@ -116,99 +111,99 @@ class cscf_settings
             $this,
             'check_form'
         ));
-        add_settings_field('use_recaptcha', __('Use reCAPTCHA :', 'cleanandsimple'), array(
+        add_settings_field('use_recaptcha', __('Use reCAPTCHA :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_recaptcha', array(
             'use_recaptcha'
         ));
-        add_settings_field('theme', __('reCAPTCHA Theme :', 'cleanandsimple'), array(
+        add_settings_field('theme', __('reCAPTCHA Theme :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_recaptcha', array(
             'theme'
         ));
-        add_settings_field('recaptcha_public_key', __('reCAPTCHA Public Key :', 'cleanandsimple'), array(
+        add_settings_field('recaptcha_public_key', __('reCAPTCHA Public Key :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_recaptcha', array(
             'recaptcha_public_key'
         ));
-        add_settings_field('recaptcha_private_key', __('reCAPTCHA Private Key :', 'cleanandsimple'), array(
+        add_settings_field('recaptcha_private_key', __('reCAPTCHA Private Key :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_recaptcha', array(
             'recaptcha_private_key'
         ));
-        add_settings_section('section_message', '<h3>' . __('Message Settings', 'cleanandsimple') . '</h3>', array(
+        add_settings_section('section_message', '<h3>' . __('Message Settings', 'clean-and-simple-contact-form-by-meg-nicholas') . '</h3>', array(
             $this,
             'print_section_info_message'
         ), 'contact-form-settings');
-        add_settings_field('recipient_emails', __('Recipient Emails :', 'cleanandsimple'), array(
+        add_settings_field('recipient_emails', __('Recipient Emails :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'recipient_emails'
         ));
-        add_settings_field('confirm-email', __('Confirm Email Address :', 'cleanandsimple'), array(
+        add_settings_field('confirm-email', __('Confirm Email Address :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'confirm-email'
         ));
-        add_settings_field('email-sender', '<span style="color:red;">' . __('*New*','cleanandsimple') . '</span> ' . __('Allow users to email themselves a copy :', 'cleanandsimple'), array(
+        add_settings_field('email-sender', '<span style="color:red;">' . __('*New*','clean-and-simple-contact-form-by-meg-nicholas') . '</span> ' . __('Allow users to email themselves a copy :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'email-sender'
         ));
-        add_settings_field('override-from', __('Override \'From\' Address :', 'cleanandsimple'), array(
+        add_settings_field('override-from', __('Override \'From\' Address :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'override-from'
         ));
-        add_settings_field('from-email', __('\'From\' Email Address :', 'cleanandsimple'), array(
+        add_settings_field('from-email', __('\'From\' Email Address :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'from-email'
         ));
-        add_settings_field('subject', __('Email Subject :', 'cleanandsimple'), array(
+        add_settings_field('subject', __('Email Subject :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'subject'
         ));
-        add_settings_field('message', __('Message :', 'cleanandsimple'), array(
+        add_settings_field('message', __('Message :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'message'
         ));
-        add_settings_field('sent_message_heading', __('Message Sent Heading :', 'cleanandsimple'), array(
+        add_settings_field('sent_message_heading', __('Message Sent Heading :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'sent_message_heading'
         ));
-        add_settings_field('sent_message_body', __('Message Sent Content :', 'cleanandsimple'), array(
+        add_settings_field('sent_message_body', __('Message Sent Content :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_message', array(
             'sent_message_body'
         ));
-        add_settings_section('section_styling', '<h3>' . __('Styling and Validation', 'cleanandsimple') . '</h3>', array(
+        add_settings_section('section_styling', '<h3>' . __('Styling and Validation', 'clean-and-simple-contact-form-by-meg-nicholas') . '</h3>', array(
             $this,
             'print_section_info_styling'
         ), 'contact-form-settings');
-        add_settings_field('load_stylesheet', __('Use the plugin default stylesheet (un-tick to use your theme style sheet instead) :', 'cleanandsimple'), array(
+        add_settings_field('load_stylesheet', __('Use the plugin default stylesheet (un-tick to use your theme style sheet instead) :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_styling', array(
             'load_stylesheet'
         ));
-        add_settings_field('use_client_validation', __('Use client side validation (AJAX) :', 'cleanandsimple'), array(
+        add_settings_field('use_client_validation', __('Use client side validation (AJAX) :', 'clean-and-simple-contact-form-by-meg-nicholas'), array(
             $this,
             'create_fields'
         ), 'contact-form-settings', 'section_styling', array(
@@ -280,14 +275,14 @@ class cscf_settings
     public
     function print_section_info_recaptcha()
     {
-        print __('Enter your reCAPTCHA settings below :', 'cleanandsimple');
-        print "<p>" . __('To use reCAPTCHA you must get an API key from', 'cleanandsimple') . " <a target='_blank' href='" . csf_RecaptchaV2::$signUpUrl . "'>Google reCAPTCHA</a></p>";
+        print __('Enter your reCAPTCHA settings below :', 'clean-and-simple-contact-form-by-meg-nicholas');
+        print "<p>" . __('To use reCAPTCHA you must get an API key from', 'clean-and-simple-contact-form-by-meg-nicholas') . " <a target='_blank' href='" . csf_RecaptchaV2::$signUpUrl . "'>Google reCAPTCHA</a></p>";
     }
 
     public
     function print_section_info_message()
     {
-        print __('Enter your message settings below :', 'cleanandsimple');
+        print __('Enter your message settings below :', 'clean-and-simple-contact-form-by-meg-nicholas');
     }
 
     public
@@ -389,9 +384,9 @@ class cscf_settings
                 ?>
                 <select <?php echo $disabled; ?> id="theme" name="<?php echo CSCF_OPTIONS_KEY; ?>[theme]">
                     <option <?php echo $theme == "light" ? "selected" : ""; ?>
-                        value="light"><?php _e('Light', 'cleanandsimple'); ?></option>
+                        value="light"><?php _e('Light', 'clean-and-simple-contact-form-by-meg-nicholas'); ?></option>
                     <option <?php echo $theme == "dark" ? "selected" : ""; ?>
-                        value="dark"><?php _e('Dark', 'cleanandsimple'); ?></option>
+                        value="dark"><?php _e('Dark', 'clean-and-simple-contact-form-by-meg-nicholas'); ?></option>
                 </select>
                 <?php
                 break;

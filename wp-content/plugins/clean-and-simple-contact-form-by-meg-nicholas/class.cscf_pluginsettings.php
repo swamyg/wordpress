@@ -41,7 +41,7 @@ class cscf_PluginSettings
     {
         $options = get_option(CSCF_OPTIONS_KEY);
 
-        return isset($options['sent_message_heading']) ? __($options['sent_message_heading'], 'cleanandsimple') : __('Message Sent', 'cleanandsimple');
+        return isset($options['sent_message_heading']) ? __($options['sent_message_heading'], 'clean-and-simple-contact-form-by-meg-nicholas') : __('Message Sent', 'clean-and-simple-contact-form-by-meg-nicholas');
     }
 
     static
@@ -49,7 +49,7 @@ class cscf_PluginSettings
     {
         $options = get_option(CSCF_OPTIONS_KEY);
 
-        return isset($options['sent_message_body']) ? __($options['sent_message_body'], 'cleanandsimple') : __('Thank you for your message, we will be in touch very shortly.', 'cleanandsimple');
+        return isset($options['sent_message_body']) ? __($options['sent_message_body'], 'clean-and-simple-contact-form-by-meg-nicholas') : __('Thank you for your message, we will be in touch very shortly.', 'clean-and-simple-contact-form-by-meg-nicholas');
     }
 
     static
@@ -57,7 +57,7 @@ class cscf_PluginSettings
     {
         $options = get_option(CSCF_OPTIONS_KEY);
 
-        return isset($options['message']) ? __($options['message'], 'cleanandsimple') : __('Please enter your contact details and a short message below and I will try to answer your query as soon as possible.', 'cleanandsimple');
+        return isset($options['message']) ? __($options['message'], 'clean-and-simple-contact-form-by-meg-nicholas') : __('Please enter your contact details and a short message below and I will try to answer your query as soon as possible.', 'clean-and-simple-contact-form-by-meg-nicholas');
     }
 
     static
@@ -91,7 +91,7 @@ class cscf_PluginSettings
     {
         $options = get_option(CSCF_OPTIONS_KEY);
 
-        return isset($options['subject']) ? __($options['subject'], 'cleanandsimple') : get_bloginfo('name') . __(' -  Web Enquiry', 'cleanandsimple');
+        return isset($options['subject']) ? __($options['subject'], 'clean-and-simple-contact-form-by-meg-nicholas') : get_bloginfo('name') . __(' -  Web Enquiry', 'clean-and-simple-contact-form-by-meg-nicholas');
     }
 
     static

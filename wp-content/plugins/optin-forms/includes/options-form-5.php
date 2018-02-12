@@ -3,7 +3,7 @@
                     <span class="trigger">
                     	<a><?php echo __('Style Your Form', 'optin-forms'); ?></a>
                     </span>
-					
+
                     <div class="toggle-container" style="display: none;">
                         <div class="optiongroup">
                             <div class="optionleft">
@@ -21,17 +21,17 @@
                                                 $("#optinforms-form5").css( 'background-color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <?php if (get_option('optinforms_form5_hide_title')== '1') { echo '<div class="optionsgroup"><p class="hidden-warning">' . __('You\'ve hidden your title in Form Options', 'optin-forms') . '.</p></div>'; } ?>
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_title" class="nopointer"><?php echo __('Title', 'optin-forms'); ?></label>
@@ -45,11 +45,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_title_font" class="nopointer"><?php echo __('Title font', 'optin-forms'); ?></label>
@@ -65,11 +65,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_title_size" class="nopointer"><?php echo __('Title size', 'optin-forms'); ?></label>
@@ -86,11 +86,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_title_color" class="nopointer"><?php echo __('Title color', 'optin-forms'); ?></label>
@@ -107,17 +107,17 @@
                                                 $("#optinforms-form5-title").css( 'color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <?php if (get_option('optinforms_form5_hide_subtitle')== '1') { echo '<div class="optionsgroup"><p class="hidden-warning">' . __('You\'ve hidden your subtitle in Form Options', 'optin-forms') . '.</p></div>'; } ?>
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_subtitle" class="nopointer"><?php echo __('Subtitle', 'optin-forms'); ?></label>
@@ -131,11 +131,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_subtitle_font" class="nopointer"><?php echo __('Subtitle font', 'optin-forms'); ?></label>
@@ -151,11 +151,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_subtitle_size" class="nopointer"><?php echo __('Subtitle size', 'optin-forms'); ?></label>
@@ -171,11 +171,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_subtitle_color" class="nopointer"><?php echo __('Subtitle color', 'optin-forms'); ?></label>
@@ -192,17 +192,17 @@
                                                 $("#optinforms-form5-subtitle").css( 'color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <?php if (get_option('optinforms_form5_hide_name_field')== '1') { echo '<div class="optionsgroup"><p class="hidden-warning">' . __('You\'ve hidden your name field in Form Options', 'optin-forms') . '.</p></div>'; } ?>
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_name_field" class="nopointer"><?php echo __('Input field: name', 'optin-forms'); ?></label>
@@ -216,11 +216,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_email_field" class="nopointer"><?php echo __('Input field: email', 'optin-forms'); ?></label>
@@ -234,11 +234,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_fields_font" class="nopointer"><?php echo __('Input fields font', 'optin-forms'); ?></label>
@@ -255,11 +255,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_fields_size" class="nopointer"><?php echo __('Input fields size', 'optin-forms'); ?></label>
@@ -276,11 +276,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_fields_color" class="nopointer"><?php echo __('Input fields color', 'optin-forms'); ?></label>
@@ -298,15 +298,15 @@
                                                 $("#optinforms-form5-email-field").css( 'color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                            
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_button_text" class="nopointer"><?php echo __('Button text', 'optin-forms'); ?></label>
@@ -320,11 +320,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_button_text_font" class="nopointer"><?php echo __('Button text font', 'optin-forms'); ?></label>
@@ -340,11 +340,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_button_text_size" class="nopointer"><?php echo __('Button text size', 'optin-forms'); ?></label>
@@ -360,11 +360,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_button_text_color" class="nopointer"><?php echo __('Button text color', 'optin-forms'); ?></label>
@@ -381,15 +381,15 @@
                                                 $("#optinforms-form5-button").css( 'color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_button_background" class="nopointer"><?php echo __('Button background color', 'optin-forms'); ?></label>
@@ -406,17 +406,17 @@
                                                 $("#optinforms-form5-button").css( 'background-color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <?php if (get_option('optinforms_form5_hide_disclaimer')== '1') { echo '<div class="optionsgroup"><p class="hidden-warning">' . __('You\'ve hidden your disclaimer in Form Options', 'optin-forms') . '.</p></div>'; } ?>
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_disclaimer" class="nopointer"><?php echo __('Disclaimer text', 'optin-forms'); ?></label>
@@ -430,11 +430,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_disclaimer_font" class="nopointer"><?php echo __('Disclaimer font', 'optin-forms'); ?></label>
@@ -450,11 +450,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_disclaimer_size" class="nopointer"><?php echo __('Disclaimer size', 'optin-forms'); ?></label>
@@ -470,11 +470,11 @@
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_disclaimer_color" class="nopointer"><?php echo __('Disclaimer color', 'optin-forms'); ?></label>
@@ -491,15 +491,15 @@
                                                 $("#optinforms-form5-disclaimer").css( 'color', ui.color.toString());
                                             }
                                         });
-                                    }); 
+                                    });
                                 </script>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <div class="optiongroup">
                             <div class="optionleft">
                                 <label for="optinforms_form5_width" class="nopointer"><?php echo __('Form width', 'optin-forms'); ?></label> <label><a onclick="optinforms_explain_width_5()"><span class="explain">?</span></a></label>
@@ -515,18 +515,18 @@
                                 <div class="clear"></div>
                             </div><!--optionmiddle-->
                             <div class="optionlast">
-                                
+
                             </div><!--optionlast-->
                             <div class="clear"></div>
                         </div><!--optiongroup-->
-                        
+
                         <script type="text/javascript">
                             function optinforms_explain_width_5() {
                                 // Get the DOM reference
                                 var contentId = document.getElementById("optinforms-explain-width-5");
-                                // Toggle 
-                                contentId.style.display == "block" ? contentId.style.display = "none" : 
-                                contentId.style.display = "block"; 
+                                // Toggle
+                                contentId.style.display == "block" ? contentId.style.display = "none" :
+                                contentId.style.display = "block";
                             }
                         </script>
                         <div id="optinforms-explain-width-5" style="display:none;">
@@ -534,20 +534,20 @@
                                 <p><?php echo __('In most cases, you can leave the form width at 100%. This will ensure your form will align perfectly with any WordPress theme and act responsive when scaled on different devices. Please note that the form preview displayed in your WordPress administration panel will not be affected by changing this value.', 'optin-forms'); ?></p>
                             </div><!--optinforms-help-->
                         </div><!--optinforms-explain-width-5-->
-                    
+
                     </div><!--toggle-container-->
                     <div class="clear"></div>
-                    
+
                     <div class="toggle-wrap">
                     	<span class="trigger">
                             <a><?php echo __('Form Options', 'optin-forms'); ?></a>
                         </span>
-                        
+
                         <div class="toggle-container" style="display: none;">
-                        
+
                         	<div class="optiongroup">
                                 <div class="optionleft">
-                                    
+
                                 </div><!--optionleft-->
                                 <div class="optionmiddle">
                                     <input type="checkbox" name="optinforms_form5_hide_title" value="1" id="optinforms_form5_hide_title" <?php if (get_option('optinforms_form5_hide_title')== '1') { echo 'checked="checked"'; } ?> onclick="optinforms_form5_title_visibility(this.checked);" /> <label for="optinforms_form5_hide_title" class="nopointer"><?php echo __('Hide the title', 'optin-forms'); ?></label>
@@ -563,14 +563,14 @@
                                     </script>
                                 </div><!--optionmiddle-->
                                 <div class="optionlast">
-                                    
+
                                 </div><!--optionlast-->
                                 <div class="clear"></div>
                             </div><!--optiongroup-->
-                            
+
                             <div class="optiongroup">
                                 <div class="optionleft">
-                                    
+
                                 </div><!--optionleft-->
                                 <div class="optionmiddle">
                                     <input type="checkbox" name="optinforms_form5_hide_subtitle" value="1" id="optinforms_form5_hide_subtitle" <?php if (get_option('optinforms_form5_hide_subtitle')== '1') { echo 'checked="checked"'; } ?> onclick="optinforms_form5_hide_subtitle_visibility(this.checked);optinforms_form5_hide_subtitle_disclaimer_visibility();" /> <label for="optinforms_form5_hide_subtitle" class="nopointer"><?php echo __('Hide the subtitle', 'optin-forms'); ?></label>
@@ -588,14 +588,14 @@
                                     </script>
                                 </div><!--optionmiddle-->
                                 <div class="optionlast">
-                                    
+
                                 </div><!--optionlast-->
                                 <div class="clear"></div>
                             </div><!--optiongroup-->
-                            
+
                             <div class="optiongroup">
                                 <div class="optionleft">
-                                    
+
                                 </div><!--optionleft-->
                                 <div class="optionmiddle">
                                     <input type="checkbox" name="optinforms_form5_hide_name_field" value="1" id="optinforms_form5_hide_name_field" <?php if (get_option('optinforms_form5_hide_name_field')== '1') { echo 'checked="checked"'; } ?> onclick="optinforms_form5_name_field_visibility(this.checked);" /> <label for="optinforms_form5_hide_name_field" class="nopointer"><?php echo __('Hide the name field', 'optin-forms'); ?></label>
@@ -611,14 +611,14 @@
                                     </script>
                                 </div><!--optionmiddle-->
                                 <div class="optionlast">
-                                    
+
                                 </div><!--optionlast-->
                                 <div class="clear"></div>
                             </div><!--optiongroup-->
-                            
+
                             <div class="optiongroup">
                                 <div class="optionleft">
-                                    
+
                                 </div><!--optionleft-->
                                 <div class="optionmiddle">
                                     <input type="checkbox" name="optinforms_form5_hide_disclaimer" value="1" id="optinforms_form5_hide_disclaimer" <?php if (get_option('optinforms_form5_hide_disclaimer')== '1') { echo 'checked="checked"'; } ?> onclick="optinforms_form5_disclaimer_visibility(this.checked);optinforms_form5_hide_subtitle_disclaimer_visibility();" /> <label for="optinforms_form5_hide_disclaimer" class="nopointer"><?php echo __('Hide the disclaimer', 'optin-forms'); ?></label>
@@ -653,31 +653,31 @@
                                     </script>
                                 </div><!--optionmiddle-->
                                 <div class="optionlast">
-                                    
+
                                 </div><!--optionlast-->
                                 <div class="clear"></div>
                             </div><!--optiongroup-->
-                        
+
                         	<div class="optiongroup">
                                 <div class="optionleft">
-                                    <label for="optinforms_form5_css" class="nopointer"><?php echo __('Custom CSS', 'optin-forms'); ?></label> <label><a onclick="optinforms_explain_css_5()"><span class="explain">?</span></a></label> 
+                                    <label for="optinforms_form5_css" class="nopointer"><?php echo __('Custom CSS', 'optin-forms'); ?></label> <label><a onclick="optinforms_explain_css_5()"><span class="explain">?</span></a></label>
                                 </div><!--optionleft-->
                                 <div class="optionmiddle">
                                     <textarea id="optinforms_form5_css" name="optinforms_form5_css"><?php echo optinforms_form5_css(); ?></textarea>
                                 </div><!--optionmiddle-->
                                 <div class="optionlast">
-                                    
+
                                 </div><!--optionlast-->
                                 <div class="clear"></div>
                             </div><!--optiongroup-->
-                            
+
                             <script type="text/javascript">
                                 function optinforms_explain_css_5() {
                                     // Get the DOM reference
                                     var contentId = document.getElementById("optinforms-explain-css-5");
-                                    // Toggle 
-                                    contentId.style.display == "block" ? contentId.style.display = "none" : 
-                                    contentId.style.display = "block"; 
+                                    // Toggle
+                                    contentId.style.display == "block" ? contentId.style.display = "none" :
+                                    contentId.style.display = "block";
 				}
                             </script>
                             <div id="optinforms-explain-css-5" style="display:none;">
@@ -685,7 +685,7 @@
                                     <p><?php echo __('Override the plugin\'s CSS values by entering your own custom CSS.', 'optin-forms'); ?></p>
                                 </div><!--optinforms-help-->
                             </div><!--optinforms-explain-css-5-->
-                            
+
                         </div><!--toggle-container-->
                         <div class="clear"></div>
                     </div><!--toggle-wrap-->

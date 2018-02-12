@@ -12,6 +12,7 @@
                             <option value="optinforms_email_solution_option4" <?php if (get_option('optinforms_email_solution')== 'optinforms_email_solution_option4') { echo 'selected="selected"'; } ?>>GetResponse</option>
                             <option value="optinforms_email_solution_option5" <?php if (get_option('optinforms_email_solution')== 'optinforms_email_solution_option5') { echo 'selected="selected"'; } ?>>Mad Mimi</option>
                             <option value="optinforms_email_solution_option6" <?php if (get_option('optinforms_email_solution')== 'optinforms_email_solution_option6') { echo 'selected="selected"'; } ?>>Interspire Email Marketer</option>
+                            <option value="optinforms_email_solution_option7" <?php if (get_option('optinforms_email_solution')== 'optinforms_email_solution_option7') { echo 'selected="selected"'; } ?>>ConvertKit</option>
                         </select>
                         <script type="text/javascript">
                             document.getElementById('optinforms_email_solution').onchange = function() {
@@ -250,7 +251,7 @@
                     	<!--<p class="optinforms-integration"></?php echo __('Learn how to integrate GetResponse: watch the short video', 'optin-forms'); ?></p>-->
                         <div class="optiongroup">
                             <div class="optionleft">
-                                <label><a onclick="optinforms_explain_getresponse()"><span class="explain">?</span></a></label> <label for="optinforms_form_webformid_getresponse" class="nopointer"><?php echo __('Webform ID', 'optin-forms'); ?> <span class="required">*</span></label>
+                                <label><a onclick="optinforms_explain_getresponse()"><span class="explain">?</span></a></label> <label for="optinforms_form_webformid_getresponse" class="nopointer"><?php echo __('Campaign token', 'optin-forms'); ?> <span class="required">*</span></label>
                             </div><!--optionleft-->
                             <div class="optionmiddle">
                                 <input type="text" id="optinforms_form_webformid_getresponse" name="optinforms_form_webformid_getresponse" value="<?php echo optinforms_form_webformid_getresponse(); ?>" />
@@ -269,19 +270,13 @@
                         </script>
                         <div id="optinforms-explain-getresponse" style="display:none;">
                             <div class="optinforms-step">
-                            	<h4><?php echo __('How to find your webform ID value', 'optin-forms'); ?></h4>
+                            	<h4><?php echo __('How to find your campaign token', 'optin-forms'); ?></h4>
                                 <p><span class="step">1</span> <?php echo __('Log in to your GetResponse account', 'optin-forms'); ?></p>
                                 <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-getresponse-001.png" class="step-image" />
-                                <p><span class="step">2</span> <?php echo __('Click on Web Forms in the navigation menu and click on Create New', 'optin-forms'); ?></p>
+                                <p><span class="step">2</span> <?php echo __('Click on your current campaign and click on Campaign List', 'optin-forms'); ?></p>
                                 <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-getresponse-002.png" class="step-image" />
-                                <p><span class="step">3</span> <?php echo __('Click on Next Step at the bottom of the page', 'optin-forms'); ?></p>
+                                <p><span class="step">3</span> <?php echo __('Copy your campaign token', 'optin-forms'); ?></p>
                                 <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-getresponse-003.png" class="step-image" />
-                                <p><span class="step">4</span> <?php echo __('Click on Next Step at the bottom of the page', 'optin-forms'); ?></p>
-                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-getresponse-003.png" class="step-image" />
-                                <p><span class="step">5</span> <?php echo __('Click on the Show HTML Code tab', 'optin-forms'); ?></p>
-                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-getresponse-005.png" class="step-image" />
-                                <p><span class="step">6</span> <?php echo __('Scroll down and find the value of the webform_id field', 'optin-forms'); ?></p>
-                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-getresponse-006.png" class="step-image" />
                             </div><!--optinforms-step-->
                         </div><!--optinforms-explain-getresponse-->
                     
@@ -406,5 +401,93 @@
                         </div><!--optinforms-explain-interspire-->
                         
                     </div><!--optinforms_email_solution_option6-->
+                    <div id="optinforms_email_solution_option7" <?php if (get_option('optinforms_email_solution')== 'optinforms_email_solution_option7') { echo 'style="display:block;"'; } ?>>
+                    	<!--<p class="optinforms-integration"></?php echo __('Learn how to integrate ConvertKit: watch the short video', 'optin-forms'); ?></p>-->
+                        <div class="optiongroup">
+                            <div class="optionleft">
+                                <label><a onclick="optinforms_explain_convertkit()"><span class="explain">?</span></a></label> <label for="optinforms_form_id_convertkit" class="nopointer"><?php echo __('Form ID', 'optin-forms'); ?> <span class="required">*</span></label>
+                            </div><!--optionleft-->
+                            <div class="optionmiddle">
+                                <input type="text" id="optinforms_form_id_convertkit" name="optinforms_form_id_convertkit" value="<?php echo optinforms_form_id_convertkit(); ?>" />
+                            </div><!--optionmiddle-->
+                            <div class="clear"></div>
+                        </div><!--optiongroup-->
+                        
+                        <script type="text/javascript">
+                            function optinforms_explain_convertkit() {
+                                // Get the DOM reference
+                                var contentId = document.getElementById("optinforms-explain-convertkit");
+                                // Toggle 
+                                contentId.style.display == "block" ? contentId.style.display = "none" : 
+                                contentId.style.display = "block"; 
+                            }
+                        </script>
+                        <div id="optinforms-explain-convertkit" style="display:none;">
+                            <div class="optinforms-step">
+                            	<h4><?php echo __('How to find your form ID', 'optin-forms'); ?></h4>
+                                <p><span class="step">1</span> <?php echo __('Log in to your ConvertKit account', 'optin-forms'); ?></p>
+                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-convertkit-001.png" class="step-image" />
+                                <p><span class="step">2</span> <?php echo __('Click on the name of your form', 'optin-forms'); ?></p>
+                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-convertkit-002.png" class="step-image" />
+                                <p><span class="step">3</span> <?php echo __('Click on Settings', 'optin-forms'); ?></p>
+                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-convertkit-003.png" class="step-image" />
+                                <p><span class="step">4</span> <?php echo __('Click on Embed', 'optin-forms'); ?></p>
+                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-convertkit-004.png" class="step-image" />
+                                <p><span class="step">5</span> <?php echo __('You will see your form ID in the ID attribute', 'optin-forms'); ?></p>
+                                <img src="<?php echo plugins_url(); ?>/optin-forms/images/support-convertkit-005.png" class="step-image" />
+                            </div><!--optinforms-step-->
+                        </div><!--optinforms-explain-convertkit-->
+                        
+                        <div class="optiongroup">
+                            <div class="optionleft">
+                                <label><a onclick="optinforms_explain_convertkit_success()"><span class="explain">?</span></a></label> <label for="optinforms_form_success_convertkit" class="nopointer"><?php echo __('Success message', 'optin-forms'); ?></label>
+                            </div><!--optionleft-->
+                            <div class="optionmiddle">
+                                <input type="text" id="optinforms_form_success_convertkit" name="optinforms_form_success_convertkit" value="<?php echo optinforms_form_get_success_convertkit(); ?>" />
+                            </div><!--optionmiddle-->
+                            <div class="clear"></div>
+                        </div><!--optiongroup-->
+                        
+                        <script type="text/javascript">
+                            function optinforms_explain_convertkit_success() {
+                                // Get the DOM reference
+                                var contentId = document.getElementById("optinforms-explain-success-convertkit");
+                                // Toggle 
+                                contentId.style.display == "block" ? contentId.style.display = "none" : 
+                                contentId.style.display = "block"; 
+                            }
+                        </script>
+                        <div id="optinforms-explain-success-convertkit" style="display:none;">
+                            <div class="optinforms-help">
+                                <p><?php echo __('Enter the success message your visitors will see once they subscribe to your mailing list.', 'optin-forms'); ?></p>
+                            </div><!--optinforms-help-->
+                        </div><!--optinforms-explain-success-convertkit-->
+                        
+                        <div class="optiongroup">
+                            <div class="optionleft">
+                                <label><a onclick="optinforms_explain_convertkit_error()"><span class="explain">?</span></a></label> <label for="optinforms_form_error_convertkit" class="nopointer"><?php echo __('Error message', 'optin-forms'); ?></label>
+                            </div><!--optionleft-->
+                            <div class="optionmiddle">
+                                <input type="text" id="optinforms_form_error_convertkit" name="optinforms_form_error_convertkit" value="<?php echo optinforms_form_get_error_convertkit(); ?>" />
+                            </div><!--optionmiddle-->
+                            <div class="clear"></div>
+                        </div><!--optiongroup-->
+                        
+                        <script type="text/javascript">
+                            function optinforms_explain_convertkit_error() {
+                                // Get the DOM reference
+                                var contentId = document.getElementById("optinforms-explain-error-convertkit");
+                                // Toggle 
+                                contentId.style.display == "block" ? contentId.style.display = "none" : 
+                                contentId.style.display = "block"; 
+                            }
+                        </script>
+                        <div id="optinforms-explain-error-convertkit" style="display:none;">
+                            <div class="optinforms-help">
+                                <p><?php echo __('Enter the error message your visitors will once when the form submission has been unsuccessful.', 'optin-forms'); ?></p>
+                            </div><!--optinforms-help-->
+                        </div><!--optinforms-explain-error-convertkit-->
+                    
+                    </div><!--optinforms_email_solution_option7-->
                 </div><!--optiongroup-->
 <?php ?>

@@ -1,17 +1,37 @@
-<?php 
+<?php
 
 add_action( 'admin_init', 'optinforms_register_settings' );
 
 // Register Optin Forms settings
-function optinforms_register_settings() 
+function optinforms_register_settings()
 {
-	
+	global $optinforms_forms;
+
+	// Are there any custom optin form designs registered?
+	if ( is_array( $optinforms_forms ) ) {
+
+		// Loop through registered optin form designs.
+		foreach ( $optinforms_forms as $id => $design ) {
+
+			// Are the default settings provided?
+			if ( is_array( $design->defaults ) ) {
+
+				// Loop through each default setting.
+				foreach ( $design->defaults as $setting_id => $setting_default ) {
+
+					// Register a WordPress setting to store the setting value.
+					register_setting( 'optinforms-settings-group', $setting_id );
+				}
+			}
+		}
+	}
+
 	register_setting( 'optinforms-settings-group', 'optinforms_email_solution' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_action' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_action_mailchimp' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_action_madmimi' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_action_interspire' );
-	
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form_list_name_aweber' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_redirect_aweber' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_listid_icontact' );
@@ -21,7 +41,10 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form_error_icontact' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_webformid_getresponse' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_name_field_interspire' );
-	
+        register_setting( 'optinforms-settings-group', 'optinforms_form_id_convertkit' );
+        register_setting( 'optinforms-settings-group', 'optinforms_form_success_convertkit' );
+        register_setting( 'optinforms-settings-group', 'optinforms_form_error_convertkit' );
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form_design' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_placement_post' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_placement_page' );
@@ -32,7 +55,7 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form_exclude_pages' );
 	register_setting( 'optinforms-settings-group', 'optinforms_powered_by' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form_target' );
-	
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form1_background' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form1_border' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form1_title' );
@@ -64,7 +87,7 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form1_hide_name_field' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form1_hide_disclaimer' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form1_css' );
-	
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form2_background' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form2_title' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form2_title_font' );
@@ -88,7 +111,7 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form2_hide_title' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form2_hide_disclaimer' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form2_css' );
-	
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form3_background' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form3_title' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form3_title_font' );
@@ -114,7 +137,7 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form3_hide_subtitle' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form3_hide_name_field' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form3_css' );
-	
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form4_background' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form4_border' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form4_title' );
@@ -144,7 +167,7 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form4_hide_subtitle' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form4_hide_disclaimer' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form4_css' );
-	
+
 	register_setting( 'optinforms-settings-group', 'optinforms_form5_background' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form5_title' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form5_title_font' );
@@ -175,5 +198,6 @@ function optinforms_register_settings()
 	register_setting( 'optinforms-settings-group', 'optinforms_form5_hide_name_field' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form5_hide_disclaimer' );
 	register_setting( 'optinforms-settings-group', 'optinforms_form5_css' );
+
 }
 ?>

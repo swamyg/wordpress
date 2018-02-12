@@ -27,13 +27,12 @@ jQuery(document).ready(function ($) {
     });
 
     $form.submit(function (event) {
-
-        $button = $(this).find("button");
-        $button.attr("disabled", "disabled");
-
         event.preventDefault();
 
         if ($form.validate().valid()) {
+
+            $button = $(this).find("#cscf_SubmitButton");
+            $button.attr("disabled", "disabled");
 
             $.ajax({
                 type: "post",
@@ -69,12 +68,14 @@ jQuery(document).ready(function ($) {
                             $errele.closest('.form-group').removeClass('has-success').addClass('has-error');
                             $errele.closest('.control-group').removeClass('success').addClass('error'); // support for bootstrap 2
                         });
+                        $button.removeAttr("disabled");
                     }
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
                     if (window.console) {
                         console.log("Status: " + textStatus + "Error: " + errorThrown + "Response: " + XMLHttpRequest.responseText);
                     }
+                    $button.removeAttr("disabled");
 
                 }
 
@@ -82,7 +83,6 @@ jQuery(document).ready(function ($) {
 
         }
         ;
-        $button.removeAttr("disabled");
     });
 
 });

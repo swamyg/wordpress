@@ -1,9 +1,9 @@
 === Optin Forms ===
-Contributors: brs
-Tags: optin, form, forms, aweber, icontact, mailchimp, getresponse, mad mimi, interspire, email marketer, email marketing, email, e-mail, list, list building, opt-in, newsletter, autoresponder, popup, pop-up, mailing, mailing list, mail, webform, newsletter plugin, optin plugin, opt-in plugin, conversion, design
+Contributors: wpkube, FancyThemes
+Tags: optin, form, forms, aweber, email subscriber, icontact, mailchimp, getresponse, mad mimi, newsletter, mailchimp forms, mailchimp integrations, mailchimp plugin, getresponse forms, subscribe, aweber forms, after post optin form, after post optin form plugin, lead generation, mobile optin forms, mobile optins, sidebar form, sidebar optin form, wordpress after post optin form, wordpress lead generation, wordpress popups, optin locker, social locker, enter email to download, interspire, email marketer, email marketing, email, e-mail, list, list building, opt-in, newsletter, email list, autoresponder, popup, pop-up, mailing, mailing list, mail, webform, newsletter plugin, optin plugin, opt-in plugin, conversion, design, convertkit, convert, kit
 Requires at least: 3.2
-Tested up to: 4.3.1
-Stable tag: 1.1.8
+Tested up to: 4.8
+Stable tag: 1.2.8.3
 
 Create beautiful optin forms with ease. Choose a form design, customize it, and add your form to your blog with a simple mouse-click.
 
@@ -21,6 +21,7 @@ Optin Forms works with the following email solutions:
 * GetResponse
 * MadMimi
 * Interspire Email Marketer
+* ConvertKit
 
 **Optin Forms Comes With 5 Beautiful Form Designs!**
 
@@ -29,6 +30,8 @@ All form designs are fully customizable. You can easily change all texts, fonts 
 **Translations**
 
 [Translate Optin Forms into your language](https://translate.wordpress.org/projects/wp-plugins/optin-forms)
+
+If are you looking for other alternatives check-out our article on <a href="https://fancythemes.com/best-list-building-plugins-wordpress" rel="friend">best list building plugins</a>. Also take a look at our <a href="https://fancythemes.com/best-wordpress-hosting-providers/" rel="friend">WordPress Hosting guide</a>, if you're looking to switch hosting providers.
 
 == Installation ==
 
@@ -40,7 +43,7 @@ All form designs are fully customizable. You can easily change all texts, fonts 
 == Frequently Asked Questions ==
 
 = How can I get support? =
- 
+
 Having trouble with the plugin? Simply post your question to the [support forum](http://wordpress.org/support/plugin/optin-forms) and we'll help you out.
 
 == Screenshots ==
@@ -51,6 +54,42 @@ Having trouble with the plugin? Simply post your question to the [support forum]
 3. Add your form to your website with a simple mouse-click.
 
 == Changelog ==
+= 1.2.8.3 =
+* Fixes issue with missing styling on forms
+
+= 1.2.8.2 =
+* Fixes issue with Google Fonts console error for form design 06
+
+= 1.2.8.1 =
+* Fixes issue with form design 06 on mobile devices
+
+= 1.2.8 =
+* Added a new completely minimal form design ( 06 ) meant for developers to use and style as they need
+
+= 1.2.7 =
+* Removed leftover testing code.
+
+= 1.2.6 =
+* Updated to account for iContact changes.
+
+= 1.2.4 =
+* Added ConvertKit integration.
+
+= 1.2.3 =
+* Update to properly handle plugin version numbers.
+
+= 1.2.2 =
+* Fixed a bug that was preventing the optin form from being displayed in certain circumstances.
+
+= 1.2.1 =
+* Fixed a bug that was throwing an error when no custom form designs were registered.
+
+= 1.2.0 =
+* Added the ability for themes and plugins to extend Optin Forms with their own custom form designs.
+
+= 1.1.9 =
+* Updated GetResponse to campaign token.
+* Updated broken links.
 
 = 1.1.8 =
 * Updated text domain.
@@ -74,7 +113,7 @@ Having trouble with the plugin? Simply post your question to the [support forum]
 * Updated mailing form.
 
 = 1.1.3 =
-* Improved responsive design form 02. 
+* Improved responsive design form 02.
 * Added Spanish translation.
 
 = 1.1.2 =
@@ -96,6 +135,12 @@ Having trouble with the plugin? Simply post your question to the [support forum]
 * First version!
 
 == Upgrade Notice ==
+
+= 1.2.4 =
+Added ConvertKit integration.
+
+= 1.1.9 =
+Fixed GetResponse campaign token and updated broken links.
 
 = 1.1.8 =
 Updated text domain.
